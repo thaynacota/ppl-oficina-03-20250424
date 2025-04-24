@@ -18,7 +18,7 @@
             const params = new URLSearchParams(window.location.search);
             const id = parseInt(params.get('id'));
             const noticia = dados.find(item => item.id === id);
-
+             
             const container = document.getElementById('detalhe');
             if (noticia) {
                 container.innerHTML = `
