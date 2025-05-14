@@ -1,12 +1,13 @@
 * {
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
 }
 
 .container {
-    border: 1px solid rgb(218, 214, 214);
+    border: 1px solid pink;
     border-radius: .5rem;
-    box-shadow: 0rem .5rem .5rem .03rem rgb(218, 214, 214);
+    box-shadow: 0rem .5rem .5rem .3rem pink;
     padding: 1rem;
     width: 30rem;
     height: 20rem;
@@ -14,51 +15,48 @@
 }
 
 .painel {
-    /*border: 1px solid rgb(218, 214, 214);
-    border-radius: .5rem;
-    padding: 1rem;*/
+    /*border: 1px solid pink;*/
+    border-radius: .10rem;
+    /*padding: 1rem;*/
     display: flex;
 }
 
 input {
     flex: 2;
-    border-radius: .5rem;
-    border: 1px solid rgb(218, 214, 214);
-    padding: .5rem;
 }
 
 button {
     flex: 1;
     margin-left: 1rem;
-    background-color: rgb(28, 28, 164);
-    color: rgb(218, 214, 214);
+    background-color: rgb(255, 82, 139);
+    color: white;
     border: none;
     border-radius: .5rem;
-    padding: .5rem;
 }
 
 button:hover {
-    background-color: blue;
+    background-color: rgb(158, 91, 221);
     color: white;
 }
 
 #resposta {
     margin-top: .5rem;
-    border: 1px solid rgb(218, 214, 214);
+    border: 1px solid pink;
     border-radius: .5rem;
     padding: 1rem;
     display: flex;
 }
 
 .tile {
+    width: 90%;
     margin-top: .5rem;
-    background-color: rgb(218, 214, 214);
-    border: 1px solid rgb(218, 214, 214);
+    background-color: pink;
+    border: 1px solid pink;
     border-radius: .5rem;
     padding: 1rem;
     margin: 0.3rem;
     display: flex;
-
+    align-items: center;
 }
 
 .avatar {
@@ -74,9 +72,11 @@ button:hover {
 }
 
 .maior-idade {
-    background-color: blue;
+    background-color: rgb(255, 70, 255);
+    margin-right: 10px;
 }
 
 .menor-idade {
-    background-color: red;
+    background-color: blueviolet;
+    margin-right: 10px;
 }
